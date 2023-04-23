@@ -766,7 +766,7 @@ body.lock {
 
 // ======================================================
 .contact {
-	margin: 50px 0;
+	margin: 50px 0 0px;
 
 	&__block {
 		display: flex;
@@ -787,11 +787,6 @@ body.lock {
 
 	&__image {
 		position: relative;
-		height: 300px;
-
-		@media (max-width: 570px) {
-			height: 250px;
-		}
 	}
 
 }

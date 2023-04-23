@@ -706,7 +706,7 @@ body.lock {
 }
 
 .contact {
-  margin: 50px 0;
+  margin: 50px 0 0px;
 }
 .contact__block {
   display: flex;
@@ -725,12 +725,6 @@ body.lock {
 }
 .contact__image {
   position: relative;
-  height: 300px;
-}
-@media (max-width: 570px) {
-  .contact__image {
-    height: 250px;
-  }
 }
 
 .block__social {
